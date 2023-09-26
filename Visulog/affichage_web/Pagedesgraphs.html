@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GraphPage</title>
+    <script src="graphManager.js"></script>
+    <script src="db.js"></script>
+    <link href="Pagedesgraphs.css" rel="stylesheet" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js"
+      integrity="sha512-GMGzUEevhWh8Tc/njS0bDpwgxdCJLQBWG3Z2Ct+JGOpVnEmjvNx6ts4v6A2XJf1HOrtOsfhv3hBKpK9kE5z8AQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+
+  <body>
+    <header><a href="./../mainPage.html"><img class="icon" src="iconn.png" /></a></header>
+    <div class="funnyDiv"><p>cette page est censée afficher les differents graphs à implementer</p></div>
+
+    <div class="mainContainer">
+      <div class="chartContainer">
+        <canvas id="myChart"></canvas>
+      </div>
+
+      <ul class="menu">
+        <li>
+          <div class="menuButton" onclick="afficherCommitsPerUser();">
+            <img src="../../VideoEtImage/graph.png" />
+            <a class="aa" href="../../CommitsPerAuthorsGraph.html">Commits per authors</a>
+          </div>
+        </li>
+        <li>
+          <div class="menuButton" >
+            <img src="../../VideoEtImage/a.png" />
+            <a class="aa"href="../../CommitsPerDayGraph.html">Number of commits per day</a>
+          </div>
+        </li>
+
+        <li>
+          <div class="menuButton">
+            <img src="../../VideoEtImage/file.png" />
+            <a class="aa"href="../../MergesPerAuthor.html">Number of merges per author</a>
+          </div>
+        </li>
+      </ul>
+   
+    </div>
+
+    <footer></footer>
+
+
+  </body>
+</html>

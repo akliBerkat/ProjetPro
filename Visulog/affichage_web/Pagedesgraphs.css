@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+}
+
+.grande{
+  display: flex;
+  flex-direction: column;
+}
+
+.funnyDiv{
+  background-color: #CE7BB0;
+  width: 100%;
+  height: 60px;
+  align-self: center;
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+header{
+  background-color: #A267AC;
+  width: 100%;
+  height: 150px;
+  align-self: center;
+}
+
+.mainContainer{
+  background-color: #FFBCD1;
+  width: 100%;
+  height: 500px;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.startButton {
+  text-decoration: none;
+  color: #fff;
+  width: 12rem;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #A267AC;
+  border-radius: 25px;
+}
+
+.startButtonContainer {
+  margin-top: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  height: 150px;
+  width: auto;
+}
+
+.menu{
+  background-color: #FFBCD1;
+}
+ul{
+  list-style-type: none;
+}
+
+.aa{
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+li{
+margin: 20px;
+margin-left: 100px;
+}
