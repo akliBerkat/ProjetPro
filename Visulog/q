@@ -1,0 +1,127 @@
+[33mcommit d2ba6a5004ef05ad3116f28c29028eb7f6e0ff32[m[33m ([m[1;36mHEAD -> [m[1;32mdevelop[m[33m, [m[1;31morigin/develop[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 7fa1a62 a105be5
+Author: Xavier Denis <xldenis@gmail.com>
+Date:   Tue Nov 10 11:58:25 2020 +0100
+
+    Merge branch 'add-gitignore' into 'develop'
+    
+    Ignore build artifacts in git
+    
+    See merge request adegorre/visulog!14
+
+[33mcommit a105be53f68b7ba2c93cf3486f80e04b965cb81d[m
+Author: Xavier Denis <xldenis@gmail.com>
+Date:   Tue Nov 10 11:57:58 2020 +0100
+
+    Ignore build artifacts in git
+
+[33mcommit 7fa1a620338aec79ade8c77c2edfeba64cfad393[m
+Merge: f6dfc6f dc58f07
+Author: Aldric Degorre <adegorre@irif.fr>
+Date:   Sun Sep 13 23:19:11 2020 +0200
+
+    Merge branch '18-exception-when-parsing-a-merge-commit' into 'develop'
+    
+    Resolve "Exception when parsing a merge commit"
+    
+    Closes #18
+    
+    See merge request adegorre/visulog!6
+
+[33mcommit dc58f07c46052f46b5ce07c09a0b8a572bb084a2[m[33m ([m[1;31morigin/18-exception-when-parsing-a-merge-commit[m[33m)[m
+Author: Aldric Degorre <adegorre@irif.fr>
+Date:   Fri Sep 11 10:27:57 2020 +0200
+
+    Made commit parsing more robust:
+    - uses a Commit builder for more flexibility
+    - a missing field does not prevent building the commit (only a field will be null). It is possible to change this behavior later on and consider that some fields are needed.
+    - unknown fields are just ignored and should not crash the parser
+    - tests were updated so they still pass (but should be completed by feeding the parser with different sort of commit messages with more fields or missing fields)
+
+[33mcommit f6dfc6f165aa1581968f984b9a7f8b951a39578f[m
+Merge: 09f9cbd 1329241
+Author: Aldric Degorre <adegorre@irif.fr>
+Date:   Sun Sep 13 20:32:51 2020 +0200
+
+    Merge branch 'make-it-work-at-SCRIPT' into 'develop'
+    
+    Fixes proxy and truststore for SCRIPT
+    
+    Closes #20
+    
+    See merge request adegorre/visulog!8
+
+[33mcommit 1329241dbcf7eae478c33c11032a0138d767731a[m[33m ([m[1;31morigin/make-it-work-at-SCRIPT[m[33m)[m
+Author: Aldric Degorre <adegorre@irif.fr>
+Date:   Fri Sep 11 20:39:40 2020 +0200
+
+    Fixes proxy and truststore for SCRIPT
+
+[33mcommit 09f9cbd706f22ba417b31dba74e5d9d2e3b7c6a5[m
+Merge: fb7ec21 85cddd6
+Author: Aldric Degorre <adegorre@irif.fr>
+Date:   Fri Sep 11 20:43:08 2020 +0200
+
+    Merge branch 'JDK10-for-gradle' into 'develop'
+    
+    Downgrade to JDK10 (gradle)
+    
+    Closes #16
+    
+    See merge request adegorre/visulog!7
+
+[33mcommit 85cddd65295dc2563f108078e44b571893707574[m[33m ([m[1;31morigin/JDK10-for-gradle[m[33m)[m
+Author: Aldric Degorre <adegorre@irif.fr>
+Date:   Fri Sep 11 13:31:03 2020 +0200
+
+    Downgrade to JDK10
+
+[33mcommit fb7ec21799d59fdf6e6d69c85f052223bd310e13[m
+Merge: 9e74f15 8f836af
+Author: Colin Gonzalez <colin@nomadic-labs.com>
+Date:   Wed Sep 9 15:11:35 2020 +0200
+
+    Merge branch 'tracer-bullet-code' into 'develop'
+    
+    Tracer bullet code
+    
+    Closes #3
+    
+    See merge request adegorre/visulog!4
+
+[33mcommit 8f836af1a4db16d43b09106f0216b2648edeea0e[m
+Author: Aldric Degorre <adegorre@irif.fr>
+Date:   Wed Sep 9 15:11:35 2020 +0200
+
+    Runnable code!
+    (Now we can start talking about improving things!)
+
+[33mcommit 9e74f1581f23aaad21e2b936091d3ce371336e22[m
+Author: Aldric Degorre <adegorre@irif.fr>
+Date:   Mon Aug 31 11:28:28 2020 +0200
+
+    Update README.md - more modules
+
+[33mcommit 7484b0cb7b4e69e09c82ed38549750fa2a77f50c[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Aldric Degorre <adegorre@irif.fr>
+Date:   Thu Aug 27 00:35:19 2020 +0200
+
+    Update README.md - translation...
+
+[33mcommit 9aaf6e09cc30909b32c68b4d5bf4ac50f95ecb93[m
+Author: Aldric Degorre <adegorre@irif.fr>
+Date:   Thu Aug 27 00:33:46 2020 +0200
+
+    Update README.md - some title left untranslated
+
+[33mcommit 969e2247156f27f27fec57b13faf6097bf4e2757[m
+Author: Aldric Degorre <adegorre@irif.fr>
+Date:   Thu Aug 27 00:32:47 2020 +0200
+
+    Update README.md -> in English, with some more details
+
+[33mcommit 486d76dbfd24ac65eeeeb16e57ae4fd68c8ecb1c[m
+Author: Aldric Degorre <adegorre@irif.fr>
+Date:   Thu Aug 27 00:02:55 2020 +0200
+
+    Ajout de README.md avec définition des grandes lignes du sujet.
